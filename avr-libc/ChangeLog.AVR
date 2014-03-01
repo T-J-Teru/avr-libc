@@ -1,3 +1,8 @@
+2014-03-01  Joern Rennecke <joern.rennecke@embecosm.com>
+
+	* include/Makefile.am (avr_HEADERS): Add signal.h .
+	* include/signal.h: New file.
+
 2013-06-14  Joern Rennecke <joern.rennecke@embecosm.com>
 
 	* configure.ac (AC_CONFIG_FILES): Add include/sys/Makefile.
