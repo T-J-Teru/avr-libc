@@ -1,3 +1,15 @@
+2014-07-28  Andrew Burgess  <andrew.burgess@embecosm.com>
+
+	* avr-libc/configure.ac: Remove some commented out code.  Add
+	AC_CONFIG_FILES entries for backwards compatibility crt*.o files.
+	* avr-libc/devtools/Device.am: Remove some commented out code.
+	Add some additional place holders to be used from
+	gen-avr-lib-tree.sh.
+	* avr-libc/devtools/gen-avr-lib-tree.sh: Remove commented out
+	code.  Add data entries back for compatibility libraries.  Update
+	generation loop to generate the new libc layout libraries, and
+	backwards compatibility libraries.
+
 2014-07-23  Joern Rennecke  <joern.rennecke@embecosm.com>
 
 	* libc/misc/eeupd_dword.S: Fix comment start for conditional end.
